@@ -1,0 +1,635 @@
+@font-face{font-family:'FontAwesome';
+src:url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');font-weight:normal;
+font-style:normal}*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-toggle .icon-bar{
+	border-top: 2px solid #000;
+}
+
+.social,.logo {
+	margin-top: 30px;
+}
+
+.social {
+	text-align: right;
+}
+
+.social li {
+	display: inline-block;
+	padding: 0px 8px;
+}
+
+.social li:last-child {
+	padding-right: 0px;
+	padding-left: 8px;
+}
+
+.social li a {
+	color: #000;
+	font-size: 15px;
+}
+
+.main-nav {
+	text-align: right;
+}
+
+.main-nav li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+/*.main-nav li:after {
+	content: " | ";
+}*/
+
+.main-nav li:last-child{
+	padding-right: 0px;
+	padding-left: 10px;
+}
+
+.main-nav li a {
+	color: #000;
+	text-transform: uppercase;
+}
+
+.flex-direction-nav a:before{
+	content: ''!important;
+}
+
+/*button*/
+.slider-desc {
+	position: absolute;
+	bottom: 50%;
+	left: 0px;
+	right: 0px;
+	width: 670px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.slider-desc h1 {
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.slider-desc a {
+	padding: 17px 30px;
+	background-color: #9bc4cb;
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+
+}
+
+.slider-desc a:hover {
+	text-decoration: none;
+	background-color: #70a1a9;
+	
+}
+
+.btn-primary:hover {
+	color: #fff;
+    background-color: #6298a1;
+   
+}
+
+.carousel-caption .btn {
+	font-size: 20px;
+}
+
+.breaker-1 {
+	background-image: url(../images/breaker1-bg.jpg);
+	/*kapag putol yung image*/
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breaker-2 {
+	background-image: url(../images/breaker2-bg.jpg);
+	/*kapag putol yung image*/
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.breaker-1 .content, .breaker-2 .content {
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.breaker-1 .content p, .breaker-2 .content p {
+	font-size: 20px;
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+#carousel-example-generic .item img {
+	width: 100%;
+}
+
+.section-1 .content {
+	margin: 80px 0px;
+}
+
+.section-1 .content-text {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.prod-icon, .prod-desc{
+	text-align: center;
+}
+
+.prod-icon, .prod-desc h3 {
+	font-size: 22px;
+}
+
+.prod-icon, .prod-desc h3.prod-desc-bot {
+	margin-top: 0px;
+}
+}
+.section-2 .content {
+	text-align: center;
+	margin: 80px 0px;
+}
+
+h2 {
+	font-size: 35px;
+	color: #012f8d;
+	margin-bottom: 40px;
+}
+
+/*
+.section-2 .content h2 {
+	font-size: 40px;
+	color: #012f8d;
+	margin-bottom: 40px;
+}*/
+
+.section-2 .offer {
+	box-shadow: 0px 0px 40px #e6e6e6;
+	padding: 10px 10px 50px 10px;
+	text-align: center;
+}
+
+.section-2 .content {
+	text-align: center;
+	margin: 80px 0px;
+}
+
+.section-2 .offer p {
+	margin-bottom: 30px;
+}
+
+.custom-button {
+	padding: 10px 25px;
+	background-color: #9bc4cb;
+	color: white;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.custom-button:hover {
+	background-color: #6298a1;
+	color: #fff;
+	text-decoration: none;
+}
+
+.section-3 {
+	background-color: #eee;
+}
+
+.section-3 .flexslider {
+	background: none;
+	border: none;
+	padding: 70px 0px;
+}
+
+.section-3 .flex-control-paging {
+	display: none!important;
+}
+
+.section-3 .flexslider li {
+	text-align: center;
+}
+
+.section-3 .flexslider li img {
+	width: auto;
+	display: initial;
+}
+
+.section-3 .flex-direction-nav a.flex-next:before {
+	font-family: 'FontAwesome';
+	content: '\f105'!important;
+}
+
+.section-3 .flex-direction-nav a:before {
+	font-family: 'FontAwesome';
+	content: '\f104'!important;
+}
+
+/*section-form start*/
+.section-form #left-col {
+	background-color: #504746;
+}
+
+.section-form .content-left {
+	margin: 185px auto;
+	text-align: left;
+}
+
+.section-form .content-left h3.form-text {
+	font-size: 45px;
+	color: #fff;
+}
+
+.section-form .content-left p {
+	font-size: 22px;
+	color: #fff;
+	width: 70%;
+	margin: 30px auto;
+}
+
+.section-form #right-col {
+	background-color: #f7f7f7;
+}
+.section-form .content-right {
+	background-color: #f7f7f7;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+/*section form id of careers*/
+.section-form-careers .content-left p {
+	font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+.form-content {
+	width: 400px;
+	margin-left: 70px;
+}
+
+.form-content input[type="text"], .form-content input[type="email"], .form-content select, .form-content textarea {
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 8px;
+	border: 1px solid #f7f7f7;
+	margin-bottom: 30px;
+}
+
+.form-content textarea {
+	height: 150px;
+}
+.form-content .submit-button {
+	width: 100%;
+	text-align: right;
+}
+
+.form-content input[type="submit"] {
+	padding: 10px 35px;
+	color: white;
+	background-color: #9bc4cb;
+	border-radius: 8px;
+	border: 0;
+	text-align: right;
+}
+
+.form-content input[type="submit"]:hover {
+	background-color: #70a1a9;
+	color: white;
+}
+/*section-form end*/
+
+.section-5 {
+	background-color: #eee;
+	height: 300px;
+}
+
+/*Who We Are*/
+
+.who-1 {
+	background-image: url(../images/bg-1.jpg);
+	/*kapag putol yung image*/
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-1 .containter, .who-3 .container {
+	width: 90%s;
+}
+
+.who-1 .content, .who-3 .content{
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.who-1 .content p, .who-3 .content p {
+	font-size: 20px;
+	line-height: 30px;
+    letter-spacing: 1px;   
+    margin-bottom: 30px; 
+}
+
+.page-title p:last-child {
+	margin-bottom: 0px;
+}
+
+.who-2 .vision {	
+	margin: 80px 95px;
+	width: 930px;
+}
+
+.who-2 .mission {	
+	margin: 80px 95px;
+	width: 930px;
+}
+
+.who-2 .vision-img, .mission-img {
+	width: 375px;
+	border: 1px solid #9bc4cb;
+	padding: 10px 10px 45px 10px;
+	text-align: center;
+}
+
+.who-2 .vision-desc {
+	padding-left: 30px;
+	margin: 80px 0px;
+	position: relative;
+}
+
+.who-2 .mission-desc {
+	margin: 45px 0px;
+	padding-left: 40px;
+}
+
+.who-2 .vision-desc p, .mission-desc p {
+	width: 100%;	
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+.who-2 .vision-desc h2, .mission-desc h2 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: #295bc1;
+
+}
+
+.hr-1 {
+	width: 500px;
+    margin: 280px 390px;
+    position: absolute;
+    border: 0;
+    border-top: 1px solid #d6d6d6;
+}
+
+.hr-2 {
+	width: 500px;
+    margin: 280px 57px;
+    position: absolute;
+    border: 0;
+    border-top: 1px solid #d6d6d6;
+}
+
+.who-3 {
+	background-image: url(../images/bg-2.jpg);
+	/*kapag putol yung image*/
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-3 .content h2 {
+	font-size: 40px;
+	color: #012f8d;
+	margin-bottom: 50px;
+	margin-top: 0px!important;
+}
+
+.who-4 .container {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.who-4 .content {
+	text-align: center;	
+}
+
+.who-4 .content h2 {
+	font-size: 40px;
+	color: #012f8d;
+	margin-bottom: 30px;
+}
+
+.who-4 .content p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.who-4 .first-row {
+	margin-bottom: 30px;
+}
+
+.who-4 .first-row .cp-1 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .first-row .cp-2 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .first-row .cp-3 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .second-row .cp-4 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .second-row .cp-5 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .second-row .cp-6 {
+	background-image: url('../images/p-1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-4 .cp-desc {
+	text-align: center;	
+}
+
+.who-4 .first-row .cp-1 .cp-desc {
+	padding: 30px 20px 54px 20px;
+}
+
+.who-4 .first-row .cp-2 .cp-desc {
+	padding: 30px 20px 62px 20px;
+}
+
+.who-4 .first-row .cp-3 .cp-desc {
+	padding: 30px 20px 112px 20px;
+}
+
+.who-4 .second-row .cp-4 .cp-desc {
+	padding: 30px 20px 37px 20px;
+}
+
+.who-4 .second-row .cp-5 .cp-desc {
+	padding: 30px 20px 87px 20px;
+}
+
+.who-4 .second-row .cp-6 .cp-desc {
+	padding: 30px 20px 62px 20px;
+}
+
+.who-4 h2 {
+	font-size: 30px;
+	color: #012f8d;
+	margin-bottom: 30px;
+}
+
+.who-4 p {
+	font-size: 16px;
+	color: #000;
+	line-height: 25px;
+}
+
+.who-5 .col-md-5 {
+	background-color: #295bc1;
+}
+
+.who-5 .col-md-7 {
+	background-color: #eee;
+}
+
+.who-5 .col-md-5 .content {
+	margin: 80px 0px 407px 100px;
+	text-align: center;
+
+}
+
+.who-5 .avatar-desc {
+	margin: 30px 0px;
+	color: white;
+}
+
+.who-5 .avatar-desc h2 {
+	color: white;
+}
+
+.who-5 .col-md-7 .content {
+	margin: 80px 40px 80px 50px;
+	text-align: left;	
+}
+
+.who-5 .col-md-7 .content p {
+	font-size: 20px;
+	line-height: 30px;
+    letter-spacing: 1px;
+    width: 550px;
+}
+
+.career-1 .col-md-6 h2, .career-2 .col-md-6 h2 {
+	margin: 80px 0px 0px 215px;
+    font-size: 45px;
+    color: #295bc1;
+}
+.career-1 .content, .career-2 .content {
+	margin: 80px 0px;
+}
+.career-1 .content ul, .career-2 .content ul {
+	font-size: 20px;
+    width: 88%;
+}
+
+.career-1 .content ul li:nth-child(2), .career-1 .content ul li:nth-child(3),.career-2 .content ul li:nth-child(2), .career-2 .content ul li:nth-child(3) {
+	text-indent: 20px;
+	list-style: none;
+}
+
+.career-1 hr {
+	width: 70%
+}
+
+.services .content-desc h3 {
+	font-size: 30px;
+    color: #295bc1;
+    font-weight: 400;
+    margin: 20px 0px 30px
+}
+
+.services .content-desc p {
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+/*Home page mobile*/
+/*@media (max-width: 768px) {
+	.main-nav li {
+		display: block;
+		padding: 0px 10px;
+	}
+
+}
+
+@media (min-width: 375px) {
+	.section-form .content-left {
+		margin: 0px;
+		padding: 50px 0px;
+	}
+
+	.form-content input[type="text"], .form-content input[type="email"] {
+	    width: 100%;
+	    padding: 15px 20px;
+	}
+
+	.form-content {
+		width: 700px;
+    	margin: auto;
+	}
+}
+
+@media (min-width: 1024px) { 
+	.form-content {
+		width: auto;
+	}
+
+	.section-form .content-left {
+		padding: 165px 0px;
+	}
+
+}
+
+@media (min-width: 736px) {
+	.section-2 .offer {
+		margin-bottom: 50px;
+	}
+	.section-2 .offer img {
+		width: 100%;
+	}
+}*/
+
+/*Home page mobile
